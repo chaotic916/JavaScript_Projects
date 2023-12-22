@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "Node JS v20.10.0",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaotic916/JavaScript_Projects/webcrawler.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsdom": "^23.0.1"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
